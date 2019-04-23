@@ -1,0 +1,111 @@
+SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
+
+Global
+General - zone
+
+the lot characteristics: shape, size, type
+MSZoning: The general zoning classification
+LotFrontage: Linear feet of street connected to property
+LotArea: Lot size in square feet
+LotConfig: Lot configuration
+LandSlope: Slope of property
+LotShape: General shape of property
+LandContour: Flatness of the property
+Foundation: Type of foundation
+
+the relation to outside (road access, neighborhood)
+Street: Type of road access
+Alley: Type of alley access
+Condition1: Proximity to main road or railroad
+Condition2: Proximity to main road or railroad (if a second is present)
+Neighborhood: Physical locations within Ames city limits
+
+building charateristics: type, year built
+MSSubClass: The building class
+Utilities: Type of utilities available
+BldgType: Type of dwelling
+HouseStyle: Style of dwelling
+YearBuilt: Original construction date
+YearRemodAdd: Remodel date
+OverallQual: Overall material and finish quality
+OverallCond: Overall condition rating
+
+Details
+Living Areas
+1stFlrSF: First Floor square feet
+2ndFlrSF: Second floor square feet
+LowQualFinSF: Low quality finished square feet (all floors)
+GrLivArea: Above grade (ground) living area square feet
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+Bedroom: Number of bedrooms above basement level
+exterior of building (walls / roof)
+RoofStyle: Type of roof
+RoofMatl: Roof material
+Exterior1st: Exterior covering on house
+Exterior2nd: Exterior covering on house (if more than one material)
+ExterQual: Exterior material quality
+ExterCond: Present condition of the material on the exterior
+MasVnrType: Masonry veneer type
+MasVnrArea: Masonry veneer area in square feet
+Fence: Fence quality
+basement
+BsmtQual: Height of the basement
+BsmtCond: General condition of the basement
+BsmtExposure: Walkout or garden level basement walls
+BsmtFinType1: Quality of basement finished area
+BsmtFinSF1: Type 1 finished square feet
+BsmtFinType2: Quality of second finished area (if present)
+BsmtFinSF2: Type 2 finished square feet
+BsmtUnfSF: Unfinished square feet of basement area
+TotalBsmtSF: Total square feet of basement area
+
+Functionalities (electricity / heating)
+Functional: Home functionality rating
+Heating: Type of heating
+HeatingQC: Heating quality and condition
+CentralAir: Central air conditioning
+Electrical: Electrical system
+Fireplaces: Number of fireplaces
+FireplaceQu: Fireplace quality
+
+
+Bathrooms
+BsmtFullBath: Basement full bathrooms
+BsmtHalfBath: Basement half bathrooms
+FullBath: Full bathrooms above grade
+HalfBath: Half baths above grade
+
+Kitchen
+Kitchen: Number of kitchens
+KitchenQual: Kitchen quality
+
+Garage
+GarageType: Garage location
+GarageYrBlt: Year garage was built
+GarageFinish: Interior finish of the garage
+GarageCars: Size of garage in car capacity
+GarageArea: Size of garage in square feet
+GarageQual: Garage quality
+GarageCond: Garage condition
+PavedDrive: Paved driveway
+
+Porch
+WoodDeckSF: Wood deck area in square feet
+OpenPorchSF: Open porch area in square feet
+EnclosedPorch: Enclosed porch area in square feet
+3SsnPorch: Three season porch area in square feet
+ScreenPorch: Screen porch area in square feet
+
+Pool
+PoolArea: Pool area in square feet
+PoolQC: Pool quality
+
+Misc
+MiscFeature: Miscellaneous feature not covered in other categories
+MiscVal: $Value of miscellaneous feature
+
+Sale details
+MoSold: Month Sold
+YrSold: Year Sold
+SaleType: Type of sale
+SaleCondition: Condition of sale
